@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    
+}
+
+body{
+    background-image: url("https://img.freepik.com/free-vector/purple-halftone-dots-background_1164-1084.jpg?w=740&t=st=1697568860~exp=1697569460~hmac=250c45b18023aff7f71c76930e91f496e63630e6b65ba1b07b179d4cface4c40");
+    
+}
+
+/* Cabeçalho */
+#topo{
+    height: 4rem;
+    background-color: transparent;
+}
+
+#logo{
+    display: flex;
+    position: relative;
+    top: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo p{
+    
+    color: white;
+    position: relative;
+    margin-right: 1rem;
+
+    
+    
+}
+
+#cabecalho-barra{
+    height: 4rem;
+    background-color: rgba(0, 0, 0, 0.658);
+    position: fixed;
+    width: 100%;
+    
+    
+}
+
+#logo img{
+    height: 50px;
+    
+    
+    
+}
+
+/* Video */
+#video-container{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#video-background{
+    display: flex;
+    height: 600px;
+    width: 1000px;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#video-content{
+    width: 640px;
+    height: 460px;
+    background-color: gray;
+    
+}
+
+/* Sobre */
+#about-container{
+    height: 600PX;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#about-content{
+    background-color: rgb(139, 147, 153);
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    margin-inline: 4rem;
+    padding-inline: 4rem;
+}
+#about-content img{
+    height: 300px;
+    border-radius: 30px;
+}
+#about-text{
+    padding-left: 10px;
+}
+
+/* Serviços */
+#services-container{
+    height: 600PX;
+    display: flex;
+    justify-content: space-around;
+}
+#services-content{
+    background-color: white;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    margin-inline: 4rem;
+    padding-inline: 4rem;
+}
+#services-content img{
+    height: 300px;
+    border-radius: 30px;
+}
+#service-text{
+    padding-left: 10px;
+}
