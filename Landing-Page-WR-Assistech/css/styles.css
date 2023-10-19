@@ -7,7 +7,9 @@
 }
 
 body{
-    background-image: url("https://img.freepik.com/free-vector/purple-halftone-dots-background_1164-1084.jpg?w=740&t=st=1697568860~exp=1697569460~hmac=250c45b18023aff7f71c76930e91f496e63630e6b65ba1b07b179d4cface4c40");
+    background-image: url("https://img.freepik.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-8637.jpg?w=740&t=st=1697674701~exp=1697675301~hmac=456a3f9c89dc81a558f643dd908546429c434f9b9525658fcc0d4230cc931ad5");
+    background-size: 100% 100%;
+    background-attachment: fixed;
     
 }
 
@@ -83,7 +85,9 @@ body{
     
 }
 #about-content{
-    background-color: rgb(139, 147, 153);
+    /* background-color: rgb(139, 147, 153); */
+    background-image: url(https://img.freepik.com/free-photo/old-cement-wall-texture_1149-1280.jpg?w=740&t=st=1697673962~exp=1697674562~hmac=0084e5dea46fba04f4057bd7247224ee961d29465b718c8f905452d7f4ca14be);
+    background-size: 100%;
     width: 1000px;
     display: flex;
     align-items: center;
@@ -111,11 +115,53 @@ body{
     align-items: center;
     margin-inline: 4rem;
     padding-inline: 4rem;
+    justify-content: space-between;
+    
 }
 #services-content img{
-    height: 300px;
-    border-radius: 30px;
+    height: 200px;
+    border-radius: 50%;
+    /* border: 1px solid rgb(216, 216, 216); */
+    box-shadow: 3px 3px rgba(128, 128, 128, 0.425);
+    
+    
 }
-#service-text{
+#sevice-text {
+    width: 400px;
+    height: 400px;
+    padding-left: 10px;
+    padding: 1rem;
+    align-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid rgba(0, 162, 255, 0.24);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+/* Novidade */
+#news-container{
+    height: 600PX;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#news-content{
+    background-image: url(https://img.freepik.com/free-photo/old-cement-wall-texture_1149-1280.jpg?w=740&t=st=1697673962~exp=1697674562~hmac=0084e5dea46fba04f4057bd7247224ee961d29465b718c8f905452d7f4ca14be);
+    background-size: 100%;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    margin-inline: 4rem;
+    padding-inline: 4rem;
+}
+#news-content img{
+    height: 500px;
+    border-radius: 30px;
+    
+}
+#news-text{
     padding-left: 10px;
 }
