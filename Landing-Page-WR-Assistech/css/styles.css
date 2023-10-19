@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -48,7 +48,97 @@ body{
 #page-content {
     margin-inline: 1rem;
     
+    
 }
+
+/* sessão 1 da página */
+#segment1 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 5rem;
+    
+}
+#segment1 img{
+    width: 40%;
+}
+
+/* sessão 2 da página */
+#segment2 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-bottom: 5rem;
+    background-color: #5CE1E6;
+    border-radius: 20px;
+    height: 450px;
+    padding-left: 1rem;
+    
+    
+}
+#segment2 img{
+    width: 40%;
+}
+
+#segment2 h3{
+    margin-left: 6rem;
+    margin-top: 1rem;
+}
+
+
+/* sessão 3 da página */
+#segment3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#service-container {
+    /* border: 2px solid rgb(0, 162, 255);
+    border-radius: 30px; */
+    width: 200px;
+    height: 390px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    /* font-size: 1rem; */
+    padding-block: 1rem;
+    padding-inline: 0.5rem;
+    color: rgb(68, 68, 68);
+
+}
+
+#service-container img{
+    width: 90%;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+}
+
+.service-description {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service-description p{
+    font-style: italic;
+    text-align: center;
+}
+
+.service-description h3{
+    font-weight: bolder;
+    text-decoration: underline;
+    margin-bottom: 0.3rem;
+}
+
+
 
 
 /*             Botão WhatsApp           */
@@ -84,7 +174,7 @@ body{
     align-items: center;
     flex-direction: column;
     line-height: 3rem;
-    font-size: 1.5rem;
+    font-size: 100%;
     font-weight: bold;
 }
 
