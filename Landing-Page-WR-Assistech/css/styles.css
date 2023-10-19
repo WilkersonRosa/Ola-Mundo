@@ -10,158 +10,41 @@ body{
     background-image: url("https://img.freepik.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-8637.jpg?w=740&t=st=1697674701~exp=1697675301~hmac=456a3f9c89dc81a558f643dd908546429c434f9b9525658fcc0d4230cc931ad5");
     background-size: 100% 100%;
     background-attachment: fixed;
-    
-}
-
-/* Cabeçalho */
-#topo{
-    height: 4rem;
-    background-color: transparent;
-}
-
-#logo{
     display: flex;
-    position: relative;
-    top: 0.5rem;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#logo p{
-    
-    color: white;
-    position: relative;
-    margin-right: 1rem;
-
-    
-    
-}
-
-#cabecalho-barra{
-    height: 4rem;
-    background-color: rgba(0, 0, 0, 0.658);
-    position: fixed;
-    width: 100%;
-    
-    
-}
-
-#logo img{
-    height: 50px;
-    
-    
-    
-}
-
-/* Video */
-#video-container{
-    align-items: center;
-    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     
 }
 
-#video-background{
-    display: flex;
-    height: 600px;
-    width: 1000px;
+/* Master */
+#master {
     background-color: white;
-    justify-content: space-around;
     align-items: center;
-}
-
-#video-content{
-    width: 640px;
-    height: 460px;
-    background-color: gray;
-    
-}
-
-/* Sobre */
-#about-container{
-    height: 600PX;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    
-}
-#about-content{
-    /* background-color: rgb(139, 147, 153); */
-    background-image: url(https://img.freepik.com/free-photo/old-cement-wall-texture_1149-1280.jpg?w=740&t=st=1697673962~exp=1697674562~hmac=0084e5dea46fba04f4057bd7247224ee961d29465b718c8f905452d7f4ca14be);
-    background-size: 100%;
-    width: 1000px;
-    display: flex;
-    align-items: center;
-    margin-inline: 4rem;
-    padding-inline: 4rem;
-}
-#about-content img{
-    height: 300px;
+    width: 700px;
     border-radius: 30px;
-}
-#about-text{
-    padding-left: 10px;
-}
+    padding-bottom: 4rem;
+    margin: 20px;
+    box-shadow: 10px 20px 20px 5px rgba(0, 0, 0, 0.342);
 
-/* Serviços */
-#services-container{
-    height: 600PX;
-    display: flex;
-    justify-content: space-around;
 }
-#services-content{
-    background-color: white;
-    width: 1000px;
-    display: flex;
-    align-items: center;
-    margin-inline: 4rem;
-    padding-inline: 4rem;
-    justify-content: space-between;
-    
-}
-#services-content img{
-    height: 200px;
-    border-radius: 50%;
-    /* border: 1px solid rgb(216, 216, 216); */
-    box-shadow: 3px 3px rgba(128, 128, 128, 0.425);
-    
-    
-}
-#sevice-text {
-    width: 400px;
-    height: 400px;
-    padding-left: 10px;
-    padding: 1rem;
-    align-content: space-around;
+#header {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    border: 3px solid rgba(0, 162, 255, 0.24);
-    margin: 10px;
-    border-radius: 20px;
 }
 
-/* Novidade */
-#news-container{
-    height: 600PX;
-    display: flex;
-    justify-content: space-around;
+#header img{
+    width: 350px;
     
 }
-#news-content{
-    background-image: url(https://img.freepik.com/free-photo/old-cement-wall-texture_1149-1280.jpg?w=740&t=st=1697673962~exp=1697674562~hmac=0084e5dea46fba04f4057bd7247224ee961d29465b718c8f905452d7f4ca14be);
-    background-size: 100%;
-    width: 1000px;
-    display: flex;
-    align-items: center;
-    margin-inline: 4rem;
-    padding-inline: 4rem;
-}
-#news-content img{
-    height: 500px;
-    border-radius: 30px;
-    
-}
-#news-text{
-    padding-left: 10px;
+
+#page-content {
+    margin-inline: 1rem;
 }
