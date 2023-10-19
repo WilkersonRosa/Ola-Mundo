@@ -23,7 +23,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 700px;
+    width: 800px;
     border-radius: 30px;
     padding-bottom: 4rem;
     margin: 20px;
@@ -47,4 +47,55 @@ body{
 
 #page-content {
     margin-inline: 1rem;
+    
 }
+
+
+/*             Botão WhatsApp           */
+#button-container button{
+    padding: 0.2rem;
+    font-size: 1rem;
+    background-color: rgb(36, 173, 36);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2rem;
+    position: relative;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2.5px 5px 5px 1px rgba(0, 0, 0, 0.342);
+    border: 0;
+    margin-top: 4rem;
+    font-weight: bold;
+    transition: all 0.5s;
+
+}
+
+#button-container button:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#button-container a{
+    text-decoration: none;
+}
+
+.button-image {
+    height: 50px;
+    bottom: 5px;
+    padding-left: 1rem;
+    padding-top: 5px;
+}
+
