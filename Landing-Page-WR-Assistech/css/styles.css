@@ -41,7 +41,7 @@ body{
 }
 
 #header img{
-    width: 350px;
+    width: 650px;
     
 }
 
@@ -58,13 +58,21 @@ body{
   justify-content: center;
   align-items: center;
   padding-bottom: 4rem;
+  
 }
 
-#video-segment p{
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 1.4rem
-  padding-top: 2rem;
+
+
+#video-content video{
+    border-radius: 20px;
+    box-shadow: 10px 20px 20px 5px rgba(0, 0, 0, 0.342);
 }
+
+/* #video-segment p{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.4rem;
+  padding-top: 2rem;
+} */
 
 /* sessão 1 da página */
 #segment1 {
